@@ -8,9 +8,10 @@ UnityConsole.WriteLine("Hello World !", ConsoleColor.Cyan);
 
 
 <h2>Read From Console</h2>
+<pre><code class='language-cs'>
 string output;
 if (UnityConsole.TryReadLine(out output))
     Debug.Log(output);
-
+</code></pre>
 
 thats all ^^
