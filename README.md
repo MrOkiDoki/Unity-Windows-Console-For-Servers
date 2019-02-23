@@ -16,5 +16,3 @@ if (UnityConsole.TryReadLine(out output))
     Debug.Log(output);
 </code>
 </pre>
-
-thats all ^^
