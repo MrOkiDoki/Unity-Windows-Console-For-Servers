@@ -1,11 +1,11 @@
 # Unity-Windows-Console-For-Servers
 Creates a window console.
 
-Write
+##Write##
 UnityConsole.WriteLine("Hello World !", ConsoleColor.Cyan);
 
 
-Read
+##Read##
 string output;
 if (UnityConsole.TryReadLine(out output))
     Debug.Log(output);
