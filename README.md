@@ -2,9 +2,9 @@
 Creates a window console.
 
 <h2>Write To Console</h2>
-```cs
+<pre><code class='language-cs'>
 UnityConsole.WriteLine("Hello World !", ConsoleColor.Cyan);
-```
+</code></pre>
 
 
 <h2>Read From Console</h2>
