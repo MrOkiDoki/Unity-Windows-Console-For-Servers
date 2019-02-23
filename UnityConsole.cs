@@ -16,6 +16,17 @@ public static class UnityConsole
         Console.ForegroundColor = color;
         Console.WriteLine(text);
     }
+    public static void Write(string text, ConsoleColor color = ConsoleColor.White)
+    {
+        Init();
+        Console.ForegroundColor = color;
+        Console.Write(text);
+    }
+    public static void Clear()
+    {
+        Init();
+        Console.Clear();
+    }
 
     private static string ReadBuffer = "";
     public static bool TryReadLine(out string text)
